@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+}
+
+.container > .swiper{
+    width: 70%;
+    height: 12rem;
+    position: unset ;
+}
+
+.swiperSlider {
+    background-color: var(--white);
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper >:nth-child(2) {
+    left: 6rem;
+}
+.swiper >:nth-child(3) {
+    right: 6rem;
+}
+
+.swiper >:nth-child(2),
+.swiper >:nth-child(3) {
+    color: var(--black);
+}

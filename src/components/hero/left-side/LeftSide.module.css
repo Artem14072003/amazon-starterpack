@@ -1,0 +1,25 @@
+.text1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: min-content;
+    display: block;
+    font-weight: 600;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: var(--black)
+}
+
+.text2>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.text2>:last-child {
+    display: block;
+    line-height: 160%;
+    padding-top: 5px;
+}

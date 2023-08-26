@@ -1,9 +1,10 @@
-import "./App.css";
+import "./assets/css/App.css";
+import Layout from "./components/layout/layout";
 
 function App() {
   return (
     <div className="App">
-      <span>Subscribe Zainkeepscode</span>
+        <Layout />
     </div>
   );
 }

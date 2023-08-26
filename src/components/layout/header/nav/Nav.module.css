@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.menu > li {
+    cursor: pointer;
+    transition: var(--transition-color);
+}
+
+.menu > li:hover {
+    color: var(--pink);
+}

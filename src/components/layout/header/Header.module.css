@@ -1,0 +1,29 @@
+
+.container{
+    padding: 1.5rem;
+    display: flex;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    width: 7rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.basket {
+    cursor: pointer;
+    transition: var(--transition-color);
+}
+
+.basket:hover {
+    color: var(--pink);
+}

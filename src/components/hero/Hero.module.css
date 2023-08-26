@@ -1,0 +1,11 @@
+.container {
+    min-height: 440px;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.h_side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
